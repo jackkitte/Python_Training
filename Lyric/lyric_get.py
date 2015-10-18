@@ -13,6 +13,10 @@ import urllib2
 import codecs
 import htmlentitydefs
 import re
+import csv
+import os
+import time
+import random
 
 #sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 #sys.stdout = codecs.EncodedFile(sys.stdout, 'utf_8')
@@ -53,53 +57,82 @@ def htmlentity2unicode(text):
     return result
 
 def main():
-    #url = "http://www.kasi-time.com/item-76807.html"
-    #response = urllib2.urlopen(url)
-    #html = response.read()
-    name = "music_test.txt"
-    #f = open(name, "wb")
-    #f.write(html)
-    #f.close()
-
-    f = open(name, "rb")
-    lines = f.readlines()
-    f.close()
-    name_2 = "music_phrase.txt"
-    f = open(name_2, "wb")
+    favorite_song_file = "hiphop_rb_reggae.txt"
+    f_favorite = open(favorite_song_file, "rb")
+    favorite_lines = f_favorite.readlines()
     num = 0
-    for line in lines:
-        if "<h1>" in line:
-            name = line.decode('utf_8')
-            replace_name = re.sub(r'[\t</h1>]', "", name)
-            f.write("[title]\r\n")
-            f.write(replace_name.encode("shift_jis"))
-            f.write("\r\n\r\n")
-        elif "<th>歌手</th>" in line:
-            singer = lines[num+3].decode('utf_8')
-            replace_singer = re.sub(r'[\t</a>]', "", singer)
-            f.write("[singer]\r\n")
-            f.write(replace_singer.encode("shift_jis"))
-            f.write("\r\n\r\n")
-        elif "<th>作詞者</th>" in line:
-            lyric_writer = lines[num+3].decode('utf_8')
-            replace_lyric_writer = re.sub(r'[\t</a>]', "", lyric_writer)
-            f.write("[lyric_writer]\r\n")
-            f.write(replace_lyric_writer.encode("shift_jis"))
-            f.write("\r\n\r\n")
-        elif "<th>作曲者</th>" in line:
-            composer = lines[num+3].decode('utf_8')
-            replace_composer = re.sub(r'[\t</a>]', "", composer)
-            f.write("[composer]\r\n")
-            f.write(replace_composer.encode("shift_jis"))
-            f.write("\r\n\r\n")
-        elif "var lyrics " in line:
-            phrase = htmlentity2unicode(line)
-            phrase_uni = phrase.encode('shift_jis')
-            replace_phrase = re.sub(r'<br>', "\r\n", phrase_uni)
-            f.write(replace_phrase)
-        num += 1
+    name_meta = "hiphop_rb_reggae_meta.csv"
+    f_meta = open(name_meta, "wb")
+    csv_writer = csv.writer(f_meta)
+    for favorite_line in favorite_lines:
+        rand_num = random.randint(1,10)
+        print u"sleep time : %d" % rand_num
+        time.sleep(rand_num)
+        url = favorite_line
+        response = urllib2.urlopen(url)
+        html = response.read()
+        name = "music_html.txt"
+        f = open(name, "wb")
+        f.write(html)
+        f.close()
 
-    f.close()
+        f = open(name, "rb")
+        lines = f.readlines()
+        f.close()
+        name_2 = "hiphop_rb_reggae/music_content_%2d.txt" % num
+        f = open(name_2, "wb")
+        row = 0
+        list_data_tag = []
+        list_data = []
+        for line in lines:
+            if "<h1>" in line:
+                name = line.decode('utf_8')
+                replace_name = re.sub(r'[\t</h1>]', "", name)
+                list_data_tag.append("[title]")
+                list_data.append(replace_name.encode("shift_jis"))
+                #f.write("[title]\r\n")
+                #f.write(replace_name.encode("shift_jis"))
+                #f.write("\r\n\r\n")
+            elif "<th>歌手</th>" in line:
+                singer = lines[row+3].decode('utf_8')
+                replace_singer = re.sub(r'[\t</a>]', "", singer)
+                list_data_tag.append("[singer]")
+                list_data.append(replace_singer.encode("shift_jis"))
+                #f.write("[singer]\r\n")
+                #f.write(replace_singer.encode("shift_jis"))
+                #f.write("\r\n\r\n")
+            elif "<th>作詞者</th>" in line:
+                lyric_writer = lines[row+3].decode('utf_8')
+                replace_lyric_writer = re.sub(r'[\t</a>]', "", lyric_writer)
+                list_data_tag.append("[lyric_writer]")
+                list_data.append(replace_lyric_writer.encode("shift_jis"))
+                #f.write("[lyric_writer]\r\n")
+                #f.write(replace_lyric_writer.encode("shift_jis"))
+                #f.write("\r\n\r\n")
+            elif "<th>作曲者</th>" in line:
+                composer = lines[row+3].decode('utf_8')
+                replace_composer = re.sub(r'[\t</a>]', "", composer)
+                list_data_tag.append("[composer]")
+                list_data.append(replace_composer.encode("shift_jis"))
+                #f.write("[composer]\r\n")
+                #f.write(replace_composer.encode("shift_jis"))
+                #f.write("\r\n\r\n")
+            elif "var lyrics " in line:
+                phrase = htmlentity2unicode(line)
+                phrase_uni = phrase.encode('shift_jis')
+                replace_phrase = re.sub(r'<br>', "\r\n", phrase_uni)
+                f.write(replace_phrase)
+            row += 1
+
+        if num == 0:
+            csv_writer.writerow(list_data_tag)
+            csv_writer.writerow(list_data)
+        else:
+            csv_writer.writerow(list_data)
+        num += 1
+        f.close()
+
+    f_meta.close()
 
 
 if __name__ == '__main__':

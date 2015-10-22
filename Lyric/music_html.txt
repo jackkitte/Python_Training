@@ -1,336 +1,593 @@
-
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="ja">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="Content-Style-type" content="text/css">
-<meta http-equiv="Content-Script-type" content="text/javascript">
-<meta name="viewport" content="width=800">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>L&#039;Arc～en～Ciel 叙情詩 歌詞</title>
+<meta name="description" content="L&#039;Arc～en～Cielの「叙情詩」歌詞ページ。「叙情詩」は、作詞：HYDE、作曲：KEN。" />
+<meta name="keywords" content="叙情詩,無料,歌詞,L&#039;Arc～en～Ciel,歌詞検索,J-Lyric.net" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="stylesheet" href="http://j-lyric.net/template/53/index.css" type="text/css" />
 
-<title>春色。　　ハジ→ - 歌詞タイム</title>
-<meta name="description" content="歌手:ハジ→ 作詞:ハジ→ 作曲:ハジ→  歌い出し:春の香り 桜舞う街で僕らは 新たなスタートを切る鼻唄歌いながら ほらいこうよBrand new my way僕も君も 空">
-<meta name="keywords" content="春色。,歌詞">
-<link href="http://www.kasi-time.com/css/style.css?1443798117" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="http://www.kasi-time.com/js/jquery.cookie.js"></script>
 <style type="text/css">
-/* 印刷禁止 */
-@media print {
-    body { display: none !important; }
-}
-/* 選択禁止 */
-body {
-	-moz-user-select: none;
-	-khtml-user-select: none;
-	-ms-user-select: none;
-	-webkit-user-select: none;
-	user-select: none;
-}
+<!--
+@media print {body,table,tr,td{display:none;print:none;}}
+-->
 </style>
+
+<script type='text/javascript'>
+<!--
+// Cookie 設定
+function fncSetCookie(name,value){
+ d = new Date();
+ d.setTime(d.getTime() + 24*60*60*1000*30);
+ document.cookie = name + '=' + escape(value) + ';expires=' + d.toGMTString() + ';path=/';
+}
+// Cookie 取得
+function fncGetCookie(name){
+ var search = name + '=';
+ if (document.cookie.length>0) {
+  offset = document.cookie.indexOf(search);
+  if (offset != -1){
+   offset += search.length;
+   end = document.cookie.indexOf(';',offset);
+   if(end == -1) end = document.cookie.length;
+   return unescape(document.cookie.substring(offset,end));
+  }
+ }
+ return null;
+}
+-->
+</script><script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {lang: 'ja'}
+</script>
+
+<meta property="og:image" content="http://j-lyric.net/j-lyric.png" />
+
+<meta name="verify-v1" content="n4WEBTi69IG455nxigvQocW2wzLIDbLTWsw0s7+iFt4=" />
+<meta name="msvalidate.01" content="5453B339EF2F9064BE37788F81DEEA5B" />
 </head>
-<body>
-	<div class="flame">
-	
-		<div class="header">
-			<div class="logo">
-				<a href="http://www.kasi-time.com/">
-				<img src="http://www.kasi-time.com/img/kasitime_logo.gif" alt="歌詞タイム" width="180" height="54">
-				</a>			
-			</div>
-			
-			<div class="search_box">
-				<form action="http://www.kasi-time.com/allsearch.php" method="get">
-					<input type="text" name="q" class="keyword" value="">
-					<input type="submit" value="検索" class="search_button">
-				</form>	
-			</div>
-		</div>
-		
-		<div class="center">
-			
-<div class="item_page">
+<body onContextmenu="return false" onselectstart="return false">
 
-	<div class="main_box">
-	
-		<div class="song_info clearfix">
-			<div class="song_image">
-				<a href="http://www.amazon.co.jp/gp/product/B004Q873NY/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B004Q873NY&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004Q873NY&Format=_SL200_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B004Q873NY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />			</div>
-			
-			<div class="person_list_and_other">
-			<div class="person_list_and_other_contents">
 
-				<h1>春色。 </h1>
-				
-				<div class="person_list">
-													<table>
-					
-																				<tr>
-								<th>歌手</th>
-								<td>
-																																								<a href="http://www.kasi-time.com/subcat-uta-15151-1.html">
-											ハジ→</a>　
-																												
-																																				</td>
-							</tr>
-								
-																				<tr>
-								<th>作詞者</th>
-								<td>
-																																								<a href="http://www.kasi-time.com/subcat-sakushi-15151-1.html">
-											ハジ→</a>　
-																												
-																	</td>
-							</tr>
-								
-																				<tr>
-								<th>作曲者</th>
-								<td>
-																																								<a href="http://www.kasi-time.com/subcat-sakkyoku-15151-1.html">
-											ハジ→</a>　
-																												
-																	</td>
-							</tr>
-								
-														
-														
-														
-														
-														
-														
-														
-														
-														
-											</table>
-				</div><!--/person_list-->
-				
-				<div class="other_list">
-					<table>
-						<tr>
-							<th>カテゴリ</th>
-							<td>
-																																	<a href="http://www.kasi-time.com/subcat-cat--1.html"></a>
-																		 
-									<br>
-															</td>
-						</tr>
-						
-						
-						<tr>
-							<th>読み</th><td>はるいろ</td>
-						</tr>
-						<tr>
-							<th>閲覧数</th><td>合計：29397　今月：740							</td>
-						</tr>
-						
-											</table>					
-				</div><!--/other_list-->
-			
-			</div><!--/person_list_and_other_contents-->
-			</div><!--/person_list_and_other-->
-			
-		</div><!--/song_info-->
-		
-				<div class="social_button">
-					<ul>
-						<li><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.kasi-time.com%2Fitem-53379.html&amp;send=false&amp;layout=button_count&amp;width=120&amp;show_faces=true&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px;" allowTransparency="true"></iframe></li><li><a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
-					</ul>
-				</div>
-						
-		<div>
-			<h2>歌詞</h2>
-			<div class="lyrics_menu">
-				<div id="lyrics_menu_fontsize" class="fontsize">
-					<span>文字サイズ</span>
-					<ul>
-						<li>小</li>
-						<li>中</li>
-						<li>大</li>
-						<li>特</li>
-					</ul>
-				</div>
-				
-							</div>
-			
-			<div class="clearfix">
-				<div class="parent_lyrics">
-					<div id="lyrics" class="lyrics">
-					</div>
-				</div>
+<div id='captionBand'>
+<div id='titleBand'>
+ <div class='title'>
+<div class='left'>
+<h1>L&#039;Arc～en～Ciel 叙情詩 歌詞</h1>
+</div>
+<a class='center' href='/' title='歌詞検索J-Lyric.net'></a>
+<div class='right' style='padding:0px;'>
+<p style='color:#9CF;font-size:10px;line-height:14px;text-align:left;margin:0px;'>
+<strong>L&#039;Arc～en～Ciel</strong>の「<strong>叙情詩</strong>」歌詞ページ。<br />「叙情詩」は、作詞：HYDE、作曲：KEN。</p>
+</div>
+</div></div>
+<div id='menuBand'>
 
-				<div class="ad">
-					
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 歌詞タイム上 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
-     data-ad-client="ca-pub-4761826397918753"
-     data-ad-slot="1623478340"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
+<a class='menu_1a' href='http://j-lyric.net'>TOP</a>
+<a class='menu_2a' href='/lyric/'>人気歌詞・歌詞一覧</a>
+<a class='menu_2b' href='/artist/'>人気歌手・歌手一覧</a>
+<a class='menu_2a' href='/cd/'>人気・新譜CD/DVD</a>
+<a class='menu_4a' href='/blogparts/'>Blogパーツ</a>
+<a class='menu_1a' href='/info/'>ご案内</a>
+
+
+</div>
+</div>
+
+<div id='base'>
+
+
+ <div id='bodyBand'>
+<div id='container'>
+ <div id='mainBlock'>
+
+
+
+
+
+<div id='lyricBlock'>
+<div class='caption'><h2>叙情詩</h2></div>
+<div class='body'>
+
+<table border='0' cellpadding='0' cellspacing='0' width='460'>
+<tr>
+<td width='34%' align='center'>歌：<a href='/artist/a000723/'>L&#039;Arc～en～Ciel</a></td>
+<td width='33%' align='center'>作詞：HYDE</td>
+<td width='33%' align='center'>作曲：KEN</td>
+</tr>
+</table>
+
+<p id='lyricBody'>
+季節は色を変えて幾度巡ろうとも<br />
+この気持ちは枯れない花のように揺らめいて<br />
+君を想う<br />
+<br />
+奏で合う言葉は心地よい旋律<br />
+君が傍に居るだけでいい<br />
+微笑んだ瞳を失さない為なら<br />
+たとえ星の瞬きが見えない夜も<br />
+<br />
+降り注ぐ木漏れ日のように君を包む<br />
+それは僕の強く変わらぬ誓い<br />
+夢なら夢のままでかまわない<br />
+愛する輝きに溢れ明日へ向かう喜びは<br />
+真実だから<br />
+<br />
+The love to you is alive in me. wo- every day for love.<br />
+You are aside of me wo- every day.<br />
+<br />
+残された悲しい記憶さえそっと<br />
+君はやわらげてくれるよ<br />
+はしゃぐように懐いた柔らかな風に吹かれて<br />
+なびく鮮やかな君が僕を奪う<br />
+<br />
+季節は色を変えて幾度巡ろうとも<br />
+この気持ちは枯れない花のように<br />
+夢なら夢のままでかまわない<br />
+愛する輝きに溢れ胸を染める<br />
+いつまでも君を想い<br />
+<br />
+The love to you is alive in me. wo- every day for love.<br />
+You are aside of me wo- every day<br />
+</p>
+
+</div>
+</div>
+
+
+<div style='clear:both;margin:15px auto 10px auto;text-align:center;'>
+<script type="text/javascript"><!--
+google_ad_client = "pub-4888448476575673";
+/* 336x280, Text Gold */
+google_ad_slot = "0740543869";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
 </script>
-				</div>
-			</div>
-		</div>
-		
-		<div>
-			<div class="ad2">
-				<div>
-				
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 歌詞タイム個別下左(レクタングル中) -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
-     data-ad-client="ca-pub-4761826397918753"
-     data-ad-slot="2138704751"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
-				</div>
-				<div>
-				
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 歌詞タイム個別下右(レクタングル中) -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
-     data-ad-client="ca-pub-4761826397918753"
-     data-ad-slot="4591758743"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
+</div>
+
+ </div>
+ <div id='rightBlock'>
+
+<div id='fontBlock'>
+文字サイズ：
+<input type='image' src='/picture/1/font_s.png' alt='小' onclick='fncSetFont("small");' />
+<input type='image' src='/picture/1/font_m.png' alt='中' onclick='fncSetFont("medium");' />
+<input type='image' src='/picture/1/font_l.png' alt='大' onclick='fncSetFont("large");' />
+文字位置：
+<input type='image' src='/picture/1/align_l.png' alt='左寄' onclick='fncSetAlign("left");' />
+<input type='image' src='/picture/1/align_c.png' alt='中央寄' onclick='fncSetAlign("center");' />
+</div>
+
+<script type='text/javascript'>
+<!--
+function fncSetFont( size ){
+ E = document.getElementById( "lyricBody" );
+ E.style.fontSize=size;
+ E.style.lineHeight="180%";
+ fncSetCookie('fontSize',size);
+}
+function fncSetAlign( align ){
+ E = document.getElementById( "lyricBody" );
+ E.style.textAlign = align;
+ fncSetCookie('textAlign',align);
+}
+var fontSize = fncGetCookie("fontSize");
+if( fontSize ) fncSetFont(fontSize);
+var textAlign = fncGetCookie("textAlign");
+if( textAlign ) fncSetAlign(textAlign);
+-->
 </script>
-				</div>
-			</div>
-		</div>
 
-		<div>
-			<h2>春色。に関連があるかもしれない動画(YouTube)</h2>
-			<div class="youtube">
-			<table><tr><td><a href="https://www.youtube.com/watch?v=OVRfjlOz3iI" target="_blank"><img src="https://i.ytimg.com/vi/OVRfjlOz3iI/default.jpg" alt="ハジ→『春色。』オフィシャルPV"></a></td><td><a href="https://www.youtube.com/watch?v=OVRfjlOz3iI" target="_blank">ハジ→『春色。』オフィシャルPV</a><br>2014年4月16日リリース、ハジ→のインディーズ時代の名曲を集めた「めっちゃ☆ハジバム。+1」収録曲！ 「めっちゃ☆ハジバム。+1」の詳細はこち...</td></tr><tr><td><a href="https://www.youtube.com/watch?v=2c69vrua8Rs" target="_blank"><img src="https://i.ytimg.com/vi/2c69vrua8Rs/default.jpg" alt="春色。/ ハジ→"></a></td><td><a href="https://www.youtube.com/watch?v=2c69vrua8Rs" target="_blank">春色。/ ハジ→</a><br>description.</td></tr><tr><td><a href="https://www.youtube.com/watch?v=1sIrfNB4YL4" target="_blank"><img src="https://i.ytimg.com/vi/1sIrfNB4YL4/default.jpg" alt="ハジ→『春色。』"></a></td><td><a href="https://www.youtube.com/watch?v=1sIrfNB4YL4" target="_blank">ハジ→『春色。』</a><br>編集.</td></tr><tr><td><a href="https://www.youtube.com/watch?v=EhZR1yKnQ_I" target="_blank"><img src="https://i.ytimg.com/vi/EhZR1yKnQ_I/default.jpg" alt="20140617 亀井善行　テーマ曲　【春色。／ハジ→】"></a></td><td><a href="https://www.youtube.com/watch?v=EhZR1yKnQ_I" target="_blank">20140617 亀井善行　テーマ曲　【春色。／ハジ→】</a><br>20140617 亀井善行 第３打席 テーマ曲のみ。</td></tr><tr><td><a href="https://www.youtube.com/watch?v=nCtL__nNVsA" target="_blank"><img src="https://i.ytimg.com/vi/nCtL__nNVsA/default.jpg" alt="ハジ→「春色。」試聴動画"></a></td><td><a href="https://www.youtube.com/watch?v=nCtL__nNVsA" target="_blank">ハジ→「春色。」試聴動画</a><br>レコチョクにて着うた、着うたフル、 iTunesにて楽曲配信中。 ◇レコチョク http://recochoku.com/gr/hazzie/ ◇iTunes http://itunes.apple.com/jp/artist/id40860832...</td></tr></table>			</div>
-		</div>
-		
-		<div>
-			<h2>CD(Amazon) <a href="./info/#check">注意事項</a></h2>
-			<div class="item_ranking"><a href="http://www.amazon.co.jp/gp/product/B004Q873NY/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B004Q873NY&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004Q873NY&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B004Q873NY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></div>		</div>
-		
-		<div class="ranking">
-			<h2>ハジ→の週間ランキング</h2>
-			<p class="note">関連人物を含みます。画像はアマゾンにリンクされています。</p>
-			<div class="item_ranking">1<br><a href="http://www.amazon.co.jp/gp/product/B00CZ7FWHC/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00CZ7FWHC&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00CZ7FWHC&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B00CZ7FWHC" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-67680.html">for YOU。</a></div></div><div class="item_ranking">2<br><a href="http://www.amazon.co.jp/gp/product/B00K6MWA2S/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00K6MWA2S&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00K6MWA2S&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B00K6MWA2S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-72613.html">sumire。</a></div></div><div class="item_ranking">3<br><a href="http://www.amazon.co.jp/gp/product/B004Q873NY/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B004Q873NY&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004Q873NY&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B004Q873NY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-53380.html">証。</a></div></div><div class="item_ranking">4<br><a href="http://www.amazon.co.jp/gp/product/B004Q873NY/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B004Q873NY&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004Q873NY&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B004Q873NY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-53379.html">春色。</a></div></div><div class="item_ranking">5<br><a href="http://www.amazon.co.jp/gp/product/B00G2HDJQM/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00G2HDJQM&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00G2HDJQM&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B00G2HDJQM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-69796.html">逆転満塁ホ→ムラン☆♪。</a></div></div><div class="item_ranking">6<br><a href="http://www.amazon.co.jp/gp/product/B0058VUCQI/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B0058VUCQI&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0058VUCQI&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B0058VUCQI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-55356.html">キミが好きです。</a></div></div><div class="item_ranking">7<br><a href="http://www.amazon.co.jp/gp/product/B00B1UOM7A/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00B1UOM7A&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00B1UOM7A&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B00B1UOM7A" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-65923.html">Only One。</a></div></div><div class="item_ranking">8<br><a href="http://www.amazon.co.jp/gp/product/B00T87482M/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00T87482M&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00T87482M&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B00T87482M" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-76954.html">君と。</a></div></div><div class="item_ranking">9<br><a href="http://www.amazon.co.jp/gp/product/B00I2UOBDW/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00I2UOBDW&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00I2UOBDW&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B00I2UOBDW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-71170.html">卒業サヨナラ。</a></div></div><div class="item_ranking">10<br><a href="http://www.amazon.co.jp/gp/product/B00G2HDJQM/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00G2HDJQM&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00G2HDJQM&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B00G2HDJQM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-69795.html">White Winter Love。</a></div></div><div class="item_ranking">11<br><a href="http://www.amazon.co.jp/gp/product/B0058VUCQI/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B0058VUCQI&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0058VUCQI&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B0058VUCQI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-55358.html">僕の中のボクたち。</a></div></div><div class="item_ranking">12<br><a href="http://www.amazon.co.jp/gp/product/B00K6MWA2S/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00K6MWA2S&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00K6MWA2S&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B00K6MWA2S" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-72614.html">迷子。</a></div></div><div class="item_ranking">13<br><a href="http://www.amazon.co.jp/gp/product/B00B1UOM7A/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B00B1UOM7A&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00B1UOM7A&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B00B1UOM7A" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-65924.html">楽器の弾けないミュ→ジシャン♪♪。</a></div></div><div class="item_ranking">14<br><a href="http://www.amazon.co.jp/gp/product/B0058VUCQI/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B0058VUCQI&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0058VUCQI&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B0058VUCQI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-55355.html">EVERY☆BODYww♪♪。</a></div></div><div class="item_ranking">15<br><a href="http://www.amazon.co.jp/gp/product/B0058VUCQI/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=247&creative=1211&creativeASIN=B0058VUCQI&linkCode=as2&tag=kasi-22" target="_blank"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0058VUCQI&Format=_SL75_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=kasi-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=kasi-22&l=as2&o=9&a=B0058VUCQI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><div class="item_ranking_name"><a href="item-55357.html">サマ→ズラバ→。</a></div></div>		</div>
+<div id='searchBlock'>
+<div class='caption'><h2>歌詞検索</h2></div>
+<div class='body'>
 
-		
-	</div>
-	
-</div><!--/item_page-->
-	<script type="text/javascript">
-	    $(function () {
-			/**
-			 * コピーと選択の禁止
-			 */
-			(function(){
-				$('body').on('copy contextmenu selectstart', false);
-			})();
-	
-			/**
-			 * 歌詞のフォントサイズ変更
-			 */
-			(function()
-			{
-				var fontSize = [75,100,120,150];
-				var fontSizeLen = fontSize.length;
-				var nowFontSize = $.cookie("lyrics_fontsize");
-				if (nowFontSize == null) { nowFontSize = fontSize[1]; } //cookieがなければ中
-						
-				// 初期表示
-				for (var i=0; i < fontSizeLen; i++) {
-					if (nowFontSize == fontSize[i]) {
-						$("#lyrics").css("font-size", fontSize[i] + "%");
-						$("#lyrics_menu_fontsize li").eq(i).addClass("active");
-						break;			
-					}
-				}
-			
-				// イベント
-				$("#lyrics_menu_fontsize li").on('touchstart mousedown', function(){
-					var index = $("#lyrics_menu_fontsize li").index(this); //クリックされた要素の番号
-					$("#lyrics").css("font-size", fontSize[index] + "%");
-					$.cookie("lyrics_fontsize", fontSize[index], {expires: 365});
-					$("#lyrics_menu_fontsize li").removeClass("active");
-					$("#lyrics_menu_fontsize li").eq(index).addClass("active");
-				});
-			})();
-			
-						
-			(function()
-			{
-				var lyrics = '&#26149;&#12398;&#39321;&#12426; &#26716;&#33310;&#12358;&#34903;&#12391;<br>&#20693;&#12425;&#12399; &#26032;&#12383;&#12394;&#12473;&#12479;&#12540;&#12488;&#12434;&#20999;&#12427;<br>&#40763;&#21764;&#27468;&#12356;&#12394;&#12364;&#12425; &#12411;&#12425;&#12356;&#12371;&#12358;&#12424;<br>Brand new my way<br><br>&#20693;&#12418;&#21531;&#12418; &#31354;&#12418;&#12371;&#12398;&#34903;&#12418;<br>&#28322;&#12428;&#12427;&#36637;&#12365;&#12395;&#28288;&#12385;&#12390;&#12356;&#12367;&#12424;<br>S&#12539;P&#12539;R&#12539;I&#12539;N&#12539;G Oh Yeah<br>&#26149;&#12364;&#26469;&#12427; &#26149;&#12364;&#26469;&#12427;<br><br>&#32769;&#33509;&#30007;&#22899;&#21839;&#12431;&#12378; &#24515;&#24382;&#12415;&#20986;&#12377;&#12471;&#12540;&#12474;&#12531;&#21040;&#26469;&#12414;&#12391;<br>&#12354;&#12392;&#12418;&#12358;&#23569;&#12375;&#12391;&#12377;&#12364;&#30342;&#27096;&#36817;&#38915;&#12393;&#12358;&#12362;&#36942;&#12372;&#12375;&#12391;&#12377;&#12363;?<br>&#38263;&#12356;&#38263;&#12356;&#20908;&#12398;&#12488;&#12531;&#12493;&#12523;&#12434;&#25244;&#12369;&#12383;&#12381;&#12398;&#20808;&#12395;&#24195;&#12364;&#12427;&#19990;&#30028;<br>&quot;&#26149;&#34892;&#12365;&quot;&#12398;&#21015;&#36554;&#12395;&#19968;&#32210;&#12395;&#39131;&#12403;&#20055;&#12387;&#12390;&#34892;&#12371;&#12358;&#12424;<br><br>&#27598;&#24180;&#12371;&#12398;&#26178;&#26399;&#12395;&#12394;&#12427;&#12392;<br>&#20309;&#12363;&#22987;&#12417;&#12394;&#12365;&#12419;&#12387;&#12390;&#12381;&#12431;&#12381;&#12431;&#12375;&#20986;&#12377;&#12435;&#12384;<br>&#38634;&#12364;&#28342;&#12369;&#12390;&#23567;&#12373;&#12394;&#26032;&#33469;&#12383;&#12385;&#12364;<br>&#12402;&#12423;&#12387;&#12371;&#12426;&#12392;&#38996;&#12434;&#20986;&#12377;&#12424;&#12358;&#12395;<br><br>&#27598;&#24180;&#12371;&#12398;&#26178;&#26399;&#12395;&#12394;&#12427;&#12392;<br>&#20309;&#12363;&#22987;&#12417;&#12394;&#12365;&#12419;&#12387;&#12390;&#12381;&#12431;&#12381;&#12431;&#12375;&#20986;&#12377;&#12435;&#12384;<br>&#38634;&#12364;&#28342;&#12369;&#12390;&#23567;&#12373;&#12394;&#26032;&#33469;&#12383;&#12385;&#12364;<br>&#12402;&#12423;&#12387;&#12371;&#12426;&#12392;&#38996;&#12434;&#20986;&#12377;&#12424;&#12358;&#12395;<br><br>&#26262;&#12363;&#12356;&#26149;&#39080;&#12395;&#35480;&#12431;&#12428;&#12390;<br>&#20693;&#12398;&#33016;&#12398;&#20013;&#12395;&#30496;&#12387;&#12390;&#12383;<br>&#26032;&#12383;&#12394;&#27671;&#25345;&#12385;&#12364;&#33469;&#29983;&#12360;&#20986;&#12377;<br>&#31311;&#12420;&#12363;&#12394;&#38525;&#23556;&#12375;&#12395;&#35211;&#23432;&#12425;&#12428;&#12394;&#12364;&#12425;<br><br>&#32819;&#12434;&#28548;&#12414;&#12379;&#12400; &#32884;&#12371;&#12360;&#12390;&#12367;&#12427;&#12424;<br>&#12461;&#12511;&#12398;&#27468;&#22768; &#20693;&#12398;&#12392;&#12371;&#12429;&#12408;<br>&#12418;&#12358;&#23569;&#12375;&#12384;&#12397; &#12420;&#12387;&#12392;&#20250;&#12360;&#12427;&#12397;<br>&#12378;&#12387;&#12392; &#12461;&#12511;&#12434;&#24453;&#12387;&#12390;&#12356;&#12383;&#12424;<br><br>&#26149;&#12398;&#39321;&#12426; &#26716;&#33310;&#12358;&#34903;&#12391;<br>&#20693;&#12425;&#12399; &#26032;&#12383;&#12394;&#12473;&#12479;&#12540;&#12488;&#12434;&#20999;&#12427;<br>&#21475;&#31515;&#12434;&#21561;&#12365;&#12394;&#12364;&#12425; &#12373;&#12354; &#12411;&#12425;&#12356;&#12371;&#12358;&#12424;<br>Brand new your way<br><br>&#20693;&#12418;&#21531;&#12418; &#31354;&#12418;&#12371;&#12398;&#34903;&#12418;<br>&#28322;&#12428;&#12427;&#21916;&#12403;&#12395;&#28288;&#12385;&#12390;&#12356;&#12367;&#12424;<br>S&#12539;P&#12539;R&#12539;I&#12539;N&#12539;G Oh Yeah<br>&#26149;&#12364;&#26469;&#12427; &#26149;&#12364;&#26469;&#12427;<br><br>&#12373;&#12354;&#24453;&#12387;&#12390;&#12414;&#12375;&#12383;Long &times;3Time &#25105;&#12293;&#12399;&#26149;&#12434;&#12378;&#12387;&#12392;<br>&#37325;&#12356;&#12467;&#12540;&#12488;&#12420;&#12502;&#12540;&#12484;&#12399;&#33073;&#12356;&#12391; Feel so good!!(yeah)<br>&#26149;&#19968;&#30058;&#12398;&#21335;&#39080;&#12395;&#12385;&#12419;&#12387;&#12363;&#12426;&#20415;&#20055;&#12375;&#12390;&#12420;&#12387;&#12390;&#12367;&#12427;<br>&#12454;&#12459;&#12428;&#27671;&#20998;&#12398;&#33457;&#31881;&#12418;&#12365;&#12387;&#12392;&#35328;&#12358;&#20107;&#12391;&#12375;&#12423;&#12358;&#12302;I LOVE &#26149;~&#9834;&#12303;<br><br>&#22909;&#12365;&#12394;&#20154;&#12364;&#12391;&#12365;&#12383;&#12392;&#12365;&#12395;&quot;&#26149;&#12364;&#26469;&#12383;&quot;&#12394;&#12435;&#12390;&#30342;&#12364;&#35328;&#12358;&#12424;&#12358;&#12395;<br>&#20693;&#12425;&#12398;&#24515;&#12395;HAPPY &#36939;&#12435;&#12391;&#12367;&#12428;&#12427;&#12381;&#12435;&#12394;&#32032;&#25973;&#12394;&#23395;&#31680;<br><br>&#12461;&#12511;&#12364;&#22863;&#12391;&#12427;&#38899;&#33394;&#12395;&#25265;&#12363;&#12428;&#12390;&#12356;&#12427;&#12392;<br>&#12394;&#12435;&#12384;&#12363;&#20840;&#12390;&#12434;ENJOY&#12391;&#12365;&#12381;&#12358;&#12394;<br>&#20803;&#27671;&#12392;&#21191;&#27671;&#12364;&#27832;&#12356;&#12390;&#12367;&#12427;&#12398;&#12373;<br><br>&#31354;&#12434;&#20208;&#12370;&#12400; &#24863;&#12376;&#12425;&#12428;&#12427;&#12424;<br>&#12461;&#12511;&#12398;&#12396;&#12367;&#12418;&#12426; &#20693;&#12398;&#24515;&#12391;<br>&#19968;&#24180;&#12406;&#12426;&#12395; &#12420;&#12387;&#12392;&#20250;&#12360;&#12383;&#12397;<br>&#12378;&#12387;&#12392;&#12461;&#12511;&#12395;&#20250;&#12356;&#12383;&#12363;&#12387;&#12383;&#12424;<br><br>&#26149;&#12398;&#39321;&#12426; &#26716;&#33310;&#12358;&#34903;&#12391;<br>&#20693;&#12425;&#12399; &#26032;&#12383;&#12394;&#12473;&#12479;&#12540;&#12488;&#12434;&#20999;&#12427;<br>&#40763;&#21764;&#27468;&#12356;&#12394;&#12364;&#12425; &#12411;&#12425;&#12356;&#12371;&#12358;&#12424;<br>Brand new my way<br><br>&#20693;&#12418;&#21531;&#12418; &#31354;&#12418;&#12371;&#12398;&#34903;&#12418;<br>&#28322;&#12428;&#12427;&#36637;&#12365;&#12395;&#28288;&#12385;&#12390;&#12356;&#12367;&#12424;<br>S&#12539;P&#12539;R&#12539;I&#12539;N&#12539;G Oh Yeah<br>&#26149;&#12364;&#26469;&#12427; &#26149;&#12364;&#26469;&#12427;<br><br>&#20309;&#12363;&#12364;&#32066;&#12431;&#12387;&#12390; &#20309;&#12363;&#12364;&#22987;&#12414;&#12427;<br>&#20693;&#12425;&#12398;&#19990;&#30028;&#12399; &#22793;&#12431;&#12426;&#32154;&#12369;&#12390;&#12422;&#12367;<br>&#12381;&#12428;&#12399;&#31227;&#12426;&#22793;&#12431;&#12427;&#23395;&#31680;&#12398;&#12424;&#12358;&#12395;<br>&#20170;&#26085;&#12364;&#21435;&#12387;&#12390;&#26126;&#26085;&#12364;&#12367;&#12427;&#12424;&#12358;&#12395;<br>&#26032;&#12375;&#12356;&#26053;&#31435;&#12385; &#12469;&#12520;&#12490;&#12521; &#12469;&#12520;&#12490;&#12521;<br><br>&#26149;&#12398;&#39321;&#12426; &#26716;&#33310;&#12358;&#34903;&#12391;<br>&#20693;&#12425;&#12399; &#26032;&#12383;&#12394;&#12473;&#12479;&#12540;&#12488;&#12434;&#20999;&#12427;<br>&#21475;&#31515;&#12434;&#21561;&#12365;&#12394;&#12364;&#12425; &#12373;&#12354; &#12411;&#12425;&#12356;&#12371;&#12358;&#12424;<br>Brand new your way<br><br>&#20693;&#12418;&#21531;&#12418; &#31354;&#12418;&#12371;&#12398;&#34903;&#12418;<br>&#28322;&#12428;&#12427;&#21916;&#12403;&#12395;&#28288;&#12385;&#12390;&#12356;&#12367;&#12424;<br>S&#12539;P&#12539;R&#12539;I&#12539;N&#12539;G Oh Yeah<br>&#26149;&#12364;&#26469;&#12427; &#26149;&#12364;&#26469;&#12427;';
-				var lyrics_part = ''; 
-				
-				// 初期表示 なし
-				$("#lyrics").html(lyrics);
-				$("#lyrics_menu_part li").eq(0).addClass("active");
-				
-				// イベント
-				$("#lyrics_menu_part li").on('touchstart mousedown', function(){
-					var index = $("#lyrics_menu_part li").index(this); //クリックされた要素の番号
+<form action='http://search.j-lyric.net/index.php' method='get'>
 
-					if (index == 0) {
-						$("#lyrics").html(lyrics);
-					} else if (index == 1) {
-						$("#lyrics").html(lyrics_part);					
-					}
-					
-					$("#lyrics_menu_part li").removeClass("active");
-					$("#lyrics_menu_part li").eq(index).addClass("active");
-				});				
-			})();			
-			
-		});
-	</script>
+<table summary='search' border='0'>
+<tr>
+<th>曲名：</th>
+<td>
+<input type='text' name='kt' value='' />
+<select name='ct'>
+<option value='0' selected='selected'>前方一致</option>
+<option value='1'>完全一致</option>
+<option value='2'>中間一致</option>
+<option value='3'>後方一致</option>
+</select>
+</td>
+</tr>
 
-	<script type="text/javascript">
-	var no = "53379";
-	var url = "http://www.kasi-time.com/ajax_item/js_counts2.php?no="+ no +"&cache="+(new Date()).getTime();
-	$.ajax({
-		type: 'GET',
-		url: url,
-		dataType: 'text',
-	}).done(function(data, textStatus, jqXHR){
-	 			$('#resultData').html('読み込みに成功しました');			
-	}).fail(function(jqXHR, textStatus, errorThrown){
-	 			$('#resultData').html('読み込みに失敗しました');
-	});	
-	</script>
+<tr>
+<th>歌手名：</th>
+<td>
+<input type='text' name='ka' value='' />
+<select name='ca'>
+<option value='0' selected='selected'>前方一致</option>
+<option value='1'>完全一致</option>
+<option value='2'>中間一致</option>
+<option value='3'>後方一致</option>
+</select>
+</td>
+</tr>
 
-		</div>
-		
-		<div class="footer">
-			<div class="nav">
-				<a href="http://www.kasi-time.com/">トップ</a> | 
-				<a href="http://www.kasi-time.com/info/index.php">ヘルプ</a> | 
-				<a href="http://www.kasi-time.com/info/privacypolicy.php">プライバシーポリシー</a>
-			</div>
-			<div>
-			歌詞タイム 2007/01/08～
-			</div>
-					</div>
-		
-	</div><!--/flame-->
-	
-	<!--アクセス解析-->
-	
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
-	  ga('create', 'UA-1651802-1', 'auto');
-	  ga('send', 'pageview');
-	
-	</script>
+<tr>
+<th>歌詞：</th>
+<td>
+<input type='text' name='kl' value='' />
+<select name='cl'>
+<option value='0' selected='selected'>前方一致</option>
+<option value='2'>中間一致</option>
+<option value='3'>後方一致</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td colspan='2' style='text-align:center;'>
+<input type='submit' value='検索' style='width:80px;height:28px;' />
+</td>
+</tr>
+</table>
+
+</form>
+
+</div>
+</div>
+<div class='content'>
+<div class='caption'><h2>このページをブックマークする</h2></div>
+<div class='body' style="padding:0px 0px 5px 10px;">
+
+<div id='bookmarks'>
+
+<a href="javascript:void window.open('http://b.hatena.ne.jp/add?mode=confirm&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title));" title='Hatenaブックマークに追加'><img src='/bookmark/hatena.gif' alt='Hatenaブックマークに追加' align='middle' />はてな</a>
+
+<a href="javascript:void window.open('http://bookmarks.yahoo.co.jp/bookmarklet/showpopup?t='+encodeURIComponent(document.title)+'&u='+encodeURIComponent(location.href)+'&ei=UTF-8','_blank','width=550,height=480,left=100,top=50,scrollbars=1,resizable=1',0);"><img src="http://i.yimg.jp/images/sicons/ybm16.gif" width="16" height="16" alt="Yahoo!ブックマークに追加" style="border:none;" align='middle' />Yahoo!</a>
+
+
+<a href="javascript:void window.open('http://www.google.com/bookmarks/mark?op=add&bkmk='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title));" title='Googleブックマークに追加'><img src='/bookmark/google.gif' alt='Googleブックマークに追加' align='middle' />Google</a>
+
+<br />
+
+
+<a href="javascript:window.external.AddFavorite(location.href,document.title);" title='お気に入りに追加'><img src='/bookmark/favorites.gif' alt='お気に入りに追加' align='middle' />お気に入りに追加</a>
+
+
+
+<div style="margin-top:10px;">
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="ja">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+</div>
+
+
+
+
+
+<div style="margin-top:10px;">
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fj-lyric.net%2Fartist%2Fa000723%2Fl0044ac.html&layout=button_count&show_faces=true&width=200&action=like&colorscheme=light&height=25" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:25px;" allowTransparency="true"></iframe>
+</div>
+
+<div style="margin-top:5px;">
+<g:plusone></g:plusone>
+</div>
+
+</div>
+</div>
+</div>
+
+<div style='width:250px;height:250px;background:#AA8833;margin-bottom:15px;'>
+<script type="text/javascript"><!--
+google_ad_client = "pub-4888448476575673";
+/* 250x250, Text Gold */
+google_ad_slot = "1971684323";
+google_ad_width = 250;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+
+<div class='content'>
+<div class='caption'><h2>人気キーワード</h2></div>
+<div class='body'>
+<a href='http://search.j-lyric.net/index.php?kt=LOVE'>LOVE</a>、<a href='http://search.j-lyric.net/index.php?ka=%E8%A5%BF%E9%87%8E%E3%82%AB%E3%83%8A'>西野カナ</a>、<a href='http://search.j-lyric.net/index.php?ka=greeeen'>greeeen</a>、<a href='http://search.j-lyric.net/index.php?ka=AAA'>AAA</a>、<a href='http://search.j-lyric.net/index.php?ka=RADWIMPS'>RADWIMPS</a>、<a href='http://search.j-lyric.net/index.php?ka=%E4%B8%96%E7%95%8C%E3%81%AE%E7%B5%82%E3%82%8F%E3%82%8A'>世界の終わり</a>、<a href='http://search.j-lyric.net/index.php?ka=miwa'>miwa</a>、<a href='http://search.j-lyric.net/index.php?ka=%E9%96%A2%E3%82%B8%E3%83%A3%E3%83%8B%E2%88%9E'>関ジャニ∞</a>、<a href='http://search.j-lyric.net/index.php?ka=Exile'>Exile</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%82%86%E3%81%9A'>ゆず</a>、<a href='http://search.j-lyric.net/index.php?ka=%E4%B8%89%E4%BB%A3%E7%9B%AE'>三代目</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%81%84%E3%81%8D%E3%82%82%E3%81%AE%E3%81%8C%E3%81%8B%E3%82%8A'>いきものがかり</a>、<a href='http://search.j-lyric.net/index.php?ka=UVERworld'>UVERworld</a>、<a href='http://search.j-lyric.net/index.php?ka=Mr.Children'>Mr.Children</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%81%8D%E3%82%83%E3%82%8A%E3%83%BC%E3%81%B1%E3%81%BF%E3%82%85%E3%81%B1%E3%81%BF%E3%82%85'>きゃりーぱみゅぱみゅ</a>、<a href='http://search.j-lyric.net/index.php?ka=Kis-My-Ft2'>Kis-My-Ft2</a>、<a href='http://search.j-lyric.net/index.php?ka=%E6%B5%9C%E5%B4%8E%E3%81%82%E3%82%86%E3%81%BF'>浜崎あゆみ</a>、<a href='http://search.j-lyric.net/index.php?ka=%E5%8A%A0%E8%97%A4%E3%83%9F%E3%83%AA%E3%83%A4'>加藤ミリヤ</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%90%E3%83%BC'>ゴールデンボンバー</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%82%82%E3%82%82%E3%81%84%E3%82%8D%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%90%E3%83%BCZ'>ももいろクローバーZ</a>、<a href='http://search.j-lyric.net/index.php?ka=%E6%B9%98%E5%8D%97%E4%B9%83%E9%A2%A8'>湘南乃風</a>、<a href='http://search.j-lyric.net/index.php?ka=AkB48'>AkB48</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%83%9D%E3%83%AB%E3%83%8E%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%86%E3%82%A3'>ポルノグラフィティ</a>、<a href='http://search.j-lyric.net/index.php?ka=e-girls'>e-girls</a>、<a href='http://search.j-lyric.net/index.php?ka=B%27z'>B'z</a>、<a href='http://search.j-lyric.net/index.php?ka=yui'>yui</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%82%BD%E3%83%8A%E3%83%BC%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88'>ソナーポケット</a>、<a href='http://search.j-lyric.net/index.php?ka=aiko'>aiko</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%82%B1%E3%83%84%E3%83%A1%E3%82%A4%E3%82%B7'>ケツメイシ</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%82%B3%E3%83%96%E3%82%AF%E3%83%AD'>コブクロ</a>、<a href='http://search.j-lyric.net/index.php?ka=%E5%AE%89%E5%AE%A4%E5%A5%88%E7%BE%8E%E6%81%B5'>安室奈美恵</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%83%8A%E3%82%AA%E3%83%88%E3%82%A4%E3%83%B3%E3%83%86%E3%82%A3%E3%83%A9%E3%82%A4%E3%83%9F'>ナオトインティライミ</a>、<a href='http://search.j-lyric.net/index.php?ka=BIGBANG'>BIGBANG</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%82%B9%E3%83%94%E3%83%83%E3%83%84'>スピッツ</a>、<a href='http://search.j-lyric.net/index.php?ka=%E5%B0%91%E5%A5%B3%E6%99%82%E4%BB%A3'>少女時代</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%82%B5%E3%82%AB%E3%83%8A%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3'>サカナクション</a>、<a href='http://search.j-lyric.net/index.php?ka=SMAP'>SMAP</a>、<a href='http://search.j-lyric.net/index.php?ka=HY'>HY</a>、<a href='http://search.j-lyric.net/index.php?ka=AK-69'>AK-69</a>、<a href='http://search.j-lyric.net/index.php?ka=%E5%80%96%E7%94%B0%E4%BE%86%E6%9C%AA'>倖田來未</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%83%8F%E3%82%B8%E2%86%92'>ハジ→</a>、<a href='http://search.j-lyric.net/index.php?ka=%E6%9D%B1%E6%96%B9%E7%A5%9E%E8%B5%B7'>東方神起</a>、<a href='http://search.j-lyric.net/index.php?ka=%E3%82%B7%E3%83%89'>シド</a>、<a href='http://search.j-lyric.net/index.php?ka=%E7%A6%8F%E5%B1%B1%E9%9B%85%E6%B2%BB'>福山雅治</a>、<a href='http://search.j-lyric.net/index.php?ka=%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%83%86%E3%82%A3%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%A0'>放課後ティータイム</a>、<a href='http://search.j-lyric.net/index.php?ka=perfume'>perfume</a>、<a href='http://search.j-lyric.net/index.php?ka=GLAY'>GLAY</a>、<a href='http://search.j-lyric.net/index.php?ka=%E6%B8%85%E6%B0%B4%E7%BF%94%E5%A4%AA'>清水翔太</a>、<a href='http://search.j-lyric.net/index.php?ka=%E4%B8%AD%E5%B3%B6%E3%81%BF%E3%82%86%E3%81%8D'>中島みゆき</a>、<a href='http://search.j-lyric.net/index.php?ka=NEWS'>NEWS</a>、<a href='http://search.j-lyric.net/index.php?kt=%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86'>ありがとう</a>、<a href='http://search.j-lyric.net/index.php?ka=AKB'>AKB</a>、<a href='http://search.j-lyric.net/index.php?kt=%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8'>オレンジ</a>、<a href='http://search.j-lyric.net/index.php?kt=RPG'>RPG</a>、<a href='http://search.j-lyric.net/index.php?ka=JULIET'>JULIET</a>、<a href='http://search.j-lyric.net/index.php?kt=%E3%81%95%E3%81%8F%E3%82%89'>さくら</a>、<a href='http://search.j-lyric.net/index.php?ka=SKE48'>SKE48</a>、<a href='http://search.j-lyric.net/index.php?ka=BENI'>BENI</a>、<a href='http://search.j-lyric.net/index.php?ka=LGY'>LGY</a>、<a href='http://search.j-lyric.net/index.php?ka=KG'>KG</a></div>
+</div>
+
+<div class="content">
+<div class="body" style="padding:10px;">
+<a href="http://twitter.com/jlyricnet"><img src='/twitter/ja_follow_me-a.png' /></a>
+</div>
+</div>
+
+
+<div class='content'>
+<div class='body'>
+<p style='font-size:11px;line-height:15px;'>
+歌詞検索J-Lyric.netでは、無料で歌詞の検索・閲覧サービスを提供しておりますが、
+著作権保護の為、歌詞の印刷、歌詞のコピー、歌詞の複写などを行うことはできません。
+</p>
+</div>
+</div>
+
+
+ </div>
+</div>
+<div id='leftBlock'>
+
+<div style='width:250px;height:250px;background:#AA8833;margin-bottom:15px;'>
+<script type="text/javascript"><!--
+google_ad_client = "pub-4888448476575673";
+/* 250x250, Image Gold */
+google_ad_slot = "6793451163";
+google_ad_width = 250;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+
+
+
+<div class='content'>
+<div class='caption'><h2>収録CD</h2></div>
+<div class='body'>
+<a class='Music' href='/cd/zB004HW80W2/'>TWENITY 2000-2010</a>
+<a class='Music' href='/cd/zB000T2IBT6/'>15th L’Anniversary Live</a>
+</div>
+</div>
+
+<div id='sideLyricRank'>
+<div class='caption'><h2>人気歌詞</h2></div>
+<div class='body'>
+<div class='rank'>1位<div class='image'>
+<a href='http://j-lyric.net/cd/zB00KLHZZOS/'><img src='http://ecx.images-amazon.com/images/I/51HfHb8uTTL._SL75_.jpg' class='cdimage' alt='ひまわりの約束(期間生産限定アニメ盤)' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a04c9d1/l032376.html'>ひまわりの約束</a><br />
+　<a href='http://j-lyric.net/artist/a04c9d1/'>秦基博</a>
+</div>
+<div class='body'>
+<div class='rank'>2位<div class='image'>
+<a href='http://j-lyric.net/cd/zB00IGT1WAE/'><img src='http://ecx.images-amazon.com/images/I/41Y0Ys8KvcL._SL75_.jpg' class='cdimage' alt='YANKEE (初回限定盤)(画集盤)' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a0579b7/l031237.html'>アイネクライネ</a><br />
+　<a href='http://j-lyric.net/artist/a0579b7/'>米津玄師</a>
+</div>
+<div class='body'>
+<div class='rank'>3位<div class='image'>
+<a href='http://j-lyric.net/cd/zB00CHIY6Q2/'><img src='http://ecx.images-amazon.com/images/I/51QpEpb9QeL._SL75_.jpg' class='cdimage' alt='高嶺の花子さん(初回限定盤)(DVD付)' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a04fdf2/l02d57c.html'>高嶺の花子さん</a><br />
+　<a href='http://j-lyric.net/artist/a04fdf2/'>back number</a>
+</div>
+<div class='body'>
+<div class='rank'>4位<div class='image'>
+<a href='http://j-lyric.net/cd/zB00JOBIEMW/'><img src='http://ecx.images-amazon.com/images/I/61lIYRHPBvL._SL75_.jpg' class='cdimage' alt='R.Y.U.S.E.I. (CD+DVD)' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a057818/l031ba7.html'>R.Y.U.S.E.I.</a><br />
+　<a href='http://j-lyric.net/artist/a057818/'>三代目 J Soul Brothers from EXILE TRIBE</a>
+</div>
+<div class='body'>
+<div class='rank'>5位<div class='image'>
+<a href='http://j-lyric.net/cd/zB001FOSLHY/'><img src='http://ecx.images-amazon.com/images/I/51P0%2BXnUazL._SL75_.jpg' class='cdimage' alt='EAST ASIA(紙ジャケット仕様)' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a000701/l0000fa.html'>糸</a><br />
+　<a href='http://j-lyric.net/artist/a000701/'>中島みゆき</a>
+</div>
+<div class='body'>
+<div class='rank'>6位<div class='image'>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a05808c/l02f9ef.html'>ないものねだり</a><br />
+　<a href='http://j-lyric.net/artist/a05808c/'>KANA-BOON</a>
+</div>
+<div class='body'>
+<div class='rank'>7位<div class='image'>
+<a href='http://j-lyric.net/cd/zB00PHL2H2G/'><img src='http://ecx.images-amazon.com/images/I/41aM81ecFzL._SL75_.jpg' class='cdimage' alt='ヒロイン(初回限定盤)(DVD付)' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a04fdf2/l034761.html'>ヒロイン</a><br />
+　<a href='http://j-lyric.net/artist/a04fdf2/'>back number</a>
+</div>
+<div class='body'>
+<div class='rank'>8位<div class='image'>
+<a href='http://j-lyric.net/cd/zB000RG1308/'><img src='http://ecx.images-amazon.com/images/I/51EEP-4E3WL._SL75_.jpg' class='cdimage' alt='グレイテスト・ヒッツ' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a001fed/l0074e4.html'>奏(かなで)</a><br />
+　<a href='http://j-lyric.net/artist/a001fed/'>スキマスイッチ</a>
+</div>
+<div class='body'>
+<div class='rank'>9位<div class='image'>
+<a href='http://j-lyric.net/cd/zB001J8NRMK/'><img src='http://ecx.images-amazon.com/images/I/51kAVGD1NmL._SL75_.jpg' class='cdimage' alt='インディゴ地平線' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a000603/l00a5cd.html'>チェリー</a><br />
+　<a href='http://j-lyric.net/artist/a000603/'>スピッツ</a>
+</div>
+<div class='body'>
+<div class='rank'>10位<div class='image'>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a05267f/l03360f.html'>Shake It Off</a><br />
+　<a href='http://j-lyric.net/artist/a05267f/'>Taylor Swift</a>
+</div>
+<div class='body'>
+<div class='rank'>11位<div class='image'>
+<a href='http://j-lyric.net/cd/zB00E1DV3V2/'><img src='http://ecx.images-amazon.com/images/I/51%2B8sEwSjiL._SL75_.jpg' class='cdimage' alt='Eighth Wonder (初回生産限定) (ALBUM2枚組+DVD+オリジナルランチバッグ)' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a04bcdd/l02e4fe.html'>恋音と雨空</a><br />
+　<a href='http://j-lyric.net/artist/a04bcdd/'>AAA</a>
+</div>
+<div class='body'>
+<div class='rank'>12位<div class='image'>
+<a href='http://j-lyric.net/cd/zB0000695ZZ/'><img src='http://ecx.images-amazon.com/images/I/2172F676TPL._SL75_.jpg' class='cdimage' alt='コンプリート・オブ・T-BOLAN at the BEING studio' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a0039ca/l006a9b.html'>マリア</a><br />
+　<a href='http://j-lyric.net/artist/a0039ca/'>T-BOLAN</a>
+</div>
+<div class='body'>
+<div class='rank'>13位<div class='image'>
+<a href='http://j-lyric.net/cd/zB001LOFU9K/'><img src='http://ecx.images-amazon.com/images/I/61d7NMKYWYL._SL75_.jpg' class='cdimage' alt='モバうた' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a04cb21/l00a54a.html'>愛唄</a><br />
+　<a href='http://j-lyric.net/artist/a04cb21/'>GReeeeN</a>
+</div>
+<div class='body'>
+<div class='rank'>14位<div class='image'>
+<a href='http://j-lyric.net/cd/zB00MXDRFF0/'><img src='http://ecx.images-amazon.com/images/I/51KtlwpC54L._SL75_.jpg' class='cdimage' alt='Dragon Night 初回限定盤B(CD+LIVE CD)' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a055790/l033358.html'>Dragon Night</a><br />
+　<a href='http://j-lyric.net/artist/a055790/'>SEKAI NO OWARI</a>
+</div>
+<div class='body'>
+<div class='rank'>15位<div class='image'>
+<a href='http://j-lyric.net/cd/zB00MIPX94O/'><img src='http://ecx.images-amazon.com/images/I/51XaCamM1yL._SL75_.jpg' class='cdimage' alt='さよならの前に (CD+DVD)' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a04bcdd/l032bbd.html'>さよならの前に</a><br />
+　<a href='http://j-lyric.net/artist/a04bcdd/'>AAA</a>
+</div>
+<div class='body'>
+<div class='rank'>16位<div class='image'>
+<a href='http://j-lyric.net/cd/zB00872UIHI/'><img src='http://ecx.images-amazon.com/images/I/51CopsywpjL._SL75_.jpg' class='cdimage' alt='The Beginning' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a04cc4b/l029c0b.html'>The Beginning</a><br />
+　<a href='http://j-lyric.net/artist/a04cc4b/'>ONE OK ROCK</a>
+</div>
+<div class='body'>
+<div class='rank'>17位<div class='image'>
+<a href='http://j-lyric.net/cd/zB001PM0CYQ/'><img src='http://ecx.images-amazon.com/images/I/51UoSwnWWeL._SL75_.jpg' class='cdimage' alt='インソムニア【SHM-CD】' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a000679/l000ab2.html'>月光</a><br />
+　<a href='http://j-lyric.net/artist/a000679/'>鬼束ちひろ</a>
+</div>
+<div class='body'>
+<div class='rank'>18位<div class='image'>
+<a href='http://j-lyric.net/cd/zB00NS9MXO6/'><img src='http://ecx.images-amazon.com/images/I/51bmhY4KYCL._SL75_.jpg' class='cdimage' alt='with LOVE (初回生産限定盤)(DVD付)' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a04d733/l032513.html'>Darling</a><br />
+　<a href='http://j-lyric.net/artist/a04d733/'>西野カナ</a>
+</div>
+<div class='body'>
+<div class='rank'>19位<div class='image'>
+<a href='http://j-lyric.net/cd/zB005F15QL2/'><img src='http://ecx.images-amazon.com/images/I/41cBMTy-nHL._SL75_.jpg' class='cdimage' alt='家族になろうよ / fighting pose 【初回限定 「I'm with U キミと、24時間ラジオ」スペシャル・アンプラグドライヴ DVD付 盤】' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a000671/l026197.html'>家族になろうよ</a><br />
+　<a href='http://j-lyric.net/artist/a000671/'>福山雅治</a>
+</div>
+<div class='body'>
+<div class='rank'>20位<div class='image'>
+<a href='http://j-lyric.net/cd/zB001MT1JC6/'><img src='http://ecx.images-amazon.com/images/I/41dE-SzUw1L._SL75_.jpg' class='cdimage' alt='BESTYO+INSTYO' />
+</a>
+</div>
+</div>
+<a class='title' href='http://j-lyric.net/artist/a000624/l002435.html'>ハナミズキ</a><br />
+　<a href='http://j-lyric.net/artist/a000624/'>一青窈</a>
+</div>
+<div class='body' style='text-align:center;height:20px;'>
+<a class='arrow1' href='http://j-lyric.net/lyric/'>歌詞ランキング</a>
+</div>
+</div>
+
+<div style='width:200px;height:90px;background:#CCAA66;margin-top:15px;'>
+
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-4888448476575673";
+/* 200x90, Text Gold */
+google_ad_slot = "0106840265";
+google_ad_width = 200;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+</div>
+
+
+</div>
+ </div>
+
+</div>
+<div style='clear:both;height:10px;'></div>
+<div id='bottomBand'>
+
+<div style='margin-bottom:20px;'>
+<script type="text/javascript"><!--
+google_ad_client = "pub-4888448476575673";
+/* 728x15, Text OpenAir */
+google_ad_slot = "8653235342";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+
+<p style='margin-top:10px;'>
+<a href='/info/e375.html'>歌詞の検索方法</a>｜
+<a href='/info/e374.html'>利用規約</a>｜
+<a href='/info/e373.html'>歌詞検索J-Lyric.net について</a>
+<br />
+Copyright © 2006-2013 J-Lyric.net
+</p></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9612590-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
 </body>
-</html>	
-
-
-
+</html>

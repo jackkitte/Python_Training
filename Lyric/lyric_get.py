@@ -57,11 +57,11 @@ def htmlentity2unicode(text):
     return result
 
 def main():
-    favorite_song_file = "iizuka_favorite_song.txt"
+    favorite_song_file = "favorite_songs/mutou_favorite_song.txt"
     f_favorite = open(favorite_song_file, "rb")
     favorite_lines = f_favorite.readlines()
     num = 0
-    name_meta = "meta/iizuka_favorite_song_meta.csv"
+    name_meta = "meta/mutou_favorite_song_meta.csv"
     f_meta = open(name_meta, "wb")
     csv_writer = csv.writer(f_meta)
     for favorite_line in favorite_lines:
@@ -79,7 +79,7 @@ def main():
         f = open(name, "rb")
         lines = f.readlines()
         f.close()
-        name_2 = "analysis_data/iizuka_favorite_song/music_content_%2d.txt" % num
+        name_2 = "analysis_data/mutou_favorite_song/music_content_%2d.txt" % num
         f = open(name_2, "wb")
         row = 0
         list_data_tag = []
@@ -90,33 +90,21 @@ def main():
                 replace_name = re.sub(r'(\t|</h1>|<h1>)', "", name)
                 list_data_tag.append("[title]")
                 list_data.append(replace_name.encode("shift_jis", 'ignore'))
-                #f.write("[title]\r\n")
-                #f.write(replace_name.encode("shift_jis"))
-                #f.write("\r\n\r\n")
             elif "<th>歌手</th>" in line:
                 singer = lines[row+3].decode('utf_8')
                 replace_singer = re.sub(r'(\t|</a>|<a>)', "", singer)
                 list_data_tag.append("[singer]")
                 list_data.append(replace_singer.encode("shift_jis", 'ignore'))
-                #f.write("[singer]\r\n")
-                #f.write(replace_singer.encode("shift_jis"))
-                #f.write("\r\n\r\n")
             elif "<th>作詞者</th>" in line:
                 lyric_writer = lines[row+3].decode('utf_8')
                 replace_lyric_writer = re.sub(r'(\t|</a>|<a>)', "", lyric_writer)
                 list_data_tag.append("[lyric_writer]")
                 list_data.append(replace_lyric_writer.encode("shift_jis", 'ignore'))
-                #f.write("[lyric_writer]\r\n")
-                #f.write(replace_lyric_writer.encode("shift_jis"))
-                #f.write("\r\n\r\n")
             elif "<th>作曲者</th>" in line:
                 composer = lines[row+3].decode('utf_8')
                 replace_composer = re.sub(r'(\t|</a>|<a>)', "", composer)
                 list_data_tag.append("[composer]")
                 list_data.append(replace_composer.encode("shift_jis", 'ignore'))
-                #f.write("[composer]\r\n")
-                #f.write(replace_composer.encode("shift_jis"))
-                #f.write("\r\n\r\n")
             elif "var lyrics " in line:
                 phrase = htmlentity2unicode(line)
                 phrase_uni = phrase.encode('shift_jis', 'ignore')

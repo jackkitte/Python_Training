@@ -84,12 +84,17 @@ def get_comment_threads(youtube, video_id):
     maxResults=100
   ).execute()
 
+  name = 'kayou_song/music_review_1.txt'
+  f = open(name, 'ab')
   for item in results["items"]:
     comment = item["snippet"]["topLevelComment"]
     author = comment["snippet"]["authorDisplayName"]
-    text = comment["snippet"]["textDisplay"]
+    text = comment["snippet"]["textDisplay"] + '\r\n'
+
+    f.write(text.encode('shift_jis','ignore'))
     print "Comment by %s: %s" % (author, text)
 
+  f.close()
   return results["items"]
 
 

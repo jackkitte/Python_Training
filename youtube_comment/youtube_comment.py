@@ -84,7 +84,7 @@ def get_comment_threads(youtube, video_id):
     maxResults=100
   ).execute()
 
-  name = 'kayou_song/music_review_1.txt'
+  name = 'tamashiro_favorite/music_review_9.txt'
   f = open(name, 'ab')
   for item in results["items"]:
     comment = item["snippet"]["topLevelComment"]

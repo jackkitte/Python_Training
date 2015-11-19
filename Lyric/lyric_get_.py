@@ -19,11 +19,11 @@ import time
 import random
 
 def main():
-    favorite_song_file = "favorite_songs/itou_favorite_song.txt"
+    favorite_song_file = "favorite_songs/yamaguchi_favorite_song.txt"
     f_favorite = open(favorite_song_file, "rb")
     favorite_lines = f_favorite.readlines()
     num = 0
-    name_meta = "meta/itou_favorite_song_meta.csv"
+    name_meta = "meta/yamaguchi_favorite_song_meta.csv"
     f_meta = open(name_meta, "wb")
     csv_writer = csv.writer(f_meta)
     for favorite_line in favorite_lines:
@@ -41,7 +41,7 @@ def main():
         f = open(name, "rb")
         lines = f.readlines()
         f.close()
-        name_2 = "analysis_data/itou_favorite_song/music_content_%2d.txt" % num
+        name_2 = "analysis_data/yamaguchi_favorite_song/music_content_%2d.txt" % num
         f = open(name_2, "wb")
         row = 0
         list_data_tag = []

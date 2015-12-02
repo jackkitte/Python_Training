@@ -1,22 +1,22 @@
 ﻿#-------------------------------------------------------------------------------
-# Name:        gensim_lda_japanese
+# Name:        module1
 # Purpose:
 #
 # Author:      kakeru_tamashiro
 #
-# Created:     16/11/2015
+# Created:     24/11/2015
 # Copyright:   (c) kakeru_tamashiro 2015
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 import os
-import re
 from gensim import corpora, models, similarities
 import MeCab
 
 def extractiveKeyword(text):
+    """textを形態素解析して、名詞のみのリストを返す"""
     tagger = MeCab.Tagger('-Ochasen')
     node = tagger.parseToNode(text.encode('utf-8'))
-    f_stop = open('stopwords.txt', 'rb')
+    f_stop = open('stopwords.txt','rb')
     stopwords = f_stop.read()
     #stoplist = set('- / . の こと する なる ある ます のみ これ それ あれ せる いう いる しれる 的 や'.split())
     stoplist = set(stopwords.split())
@@ -33,54 +33,28 @@ def extractiveKeyword(text):
                 keywords.append(node.surface)
         node = node.next
 
-    #texts = [word.decode('utf-8','ignore') for word in keywords if word not in stoplist]
     texts = [word for word in keywords if word not in stoplist]
     tokens_once = set(word for word in set(texts) if texts.count(word) == 1)
-    texts = [word.decode('utf-8', 'ignore') for word in texts if word not in tokens_once]
+    texts = [word.decode('utf-8','ignore') for word in texts if word not in tokens_once]
     return texts
 
 def main():
-    files_of_YahooNews = os.listdir('C:\Users\kakeru_tamashiro\Documents\GitHub\Python_Training\lda\YahooNews')
-    group_of_keywords = []
-    while files_of_YahooNews:
-        name_of_YahooNews = files_of_YahooNews.pop()
-        file_of_YahooNews = 'C:\Users\kakeru_tamashiro\Documents\GitHub\Python_Training\lda\YahooNews\\' + name_of_YahooNews
-        f = open(file_of_YahooNews, "rb")
-        texts = f.read()
-        #texts_utf8 = texts.decode('utf-8', 'ignore')
-        sentence_list = texts.split('。')
-        for sentence in sentence_list:
-            if sentence is '':
-                pass
-            else:
-                keywords = extractiveKeyword(sentence.decode('utf-8', 'ignore'))
-                group_of_keywords.append(keywords)
-
-    f.close()
-    test_keywords = []
-    name_of_YahooNews_test = './YahooNews/yahooIndustryNews1.txt'
+    name_of_YahooNews_test = './YahooNews/yahooIndustryNews11.txt'
+    #name_of_YahooNews_test = './test1.txt'
     f = open(name_of_YahooNews_test, 'rb')
     test_text = f.read()
-    #test_sentence_list = test_text.split('。')
-    #for test_sentence in test_sentence_list:
-    #    if test_sentence is '':
-    #        pass
-    #    else:
-    #        test_keywords.append(extractiveKeyword(test_sentence.decode('utf-8', 'ignore')))
+    f.close()
+    test_keywords = []
     test_keywords.append(extractiveKeyword(test_text.decode('utf-8', 'ignore')))
-    dictionary = corpora.Dictionary(group_of_keywords)
     dictionary_test = corpora.Dictionary(test_keywords)
-    dictionary.save('./YahooNews.dict')
     dictionary_test.save('./YahooNews_test.dict')
-    corpus = [dictionary.doc2bow(keywords) for keywords in group_of_keywords]
     test_corpus = [dictionary_test.doc2bow(test_keyword) for test_keyword in test_keywords]
-    corpora.MmCorpus.serialize('./YahooNews.mm', corpus)
     corpora.MmCorpus.serialize('./YahooNews_test.mm', test_corpus)
 
-    f = open('LDA_Data_13.txt', 'ab')
-    lda = models.ldamodel.LdaModel(corpus=corpus, num_topics=15, id2word=dictionary, iterations=50, alpha='auto')
-    #lda = models.ldamodel.LdaModel.load('YahooNews_lda_topics7.model')
-    lda.save('YahooNews_lda_topics15_.model')
+    f = open('./lda_result/sentence_/LDA_Data_Sentence_11.txt', 'ab')
+    #lda = models.ldamodel.LdaModel(corpus=corpus, num_topics=7, id2word=dictionary, iterations=100, alpha='symmetric')
+    lda = models.ldamodel.LdaModel.load('YahooNews_lda_topics15_.model')
+    #lda.save('YahooNews_lda_topics7.model')
 
     for topic in lda.show_topics(-1):
         topic_list = list(topic)
@@ -93,7 +67,6 @@ def main():
             topic_li = list(topic_doc)
             topics_per_document_li = str(topic_li[0]) + "：" + str(topic_li[1]) + "\r\n"
             f.write(topics_per_document_li)
-
     f.close()
 
 if __name__ == '__main__':

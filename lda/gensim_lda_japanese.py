@@ -53,7 +53,7 @@ def main():
             if sentence is '':
                 pass
             else:
-                keywords = extractiveKeyword(sentence.decode('utf-8', 'ignore'))
+                keywords = extractiveKeyword(sentence)
                 group_of_keywords.append(keywords)
 
     f.close()

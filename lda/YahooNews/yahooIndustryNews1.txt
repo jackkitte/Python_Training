@@ -1,9 +1,0 @@
-ワイヤレス給電技術の標準化団体であるAlliance for Wireless Power（A4WP）とPower Matters Alliance（PMA）は2015年11月3日（米国時間）、両団体が合併した新しい標準化団体「AirFuel Alliance」を立ち上げたと発表した。現時点でのメンバー企業は、195社である。理事会メンバーとして、Qualcomm、Broadcom、Intel、ON Semiconductor、Samsung Electronics、MediaTek、AT＆T、Starbucks（スターバックス）などが名を連ねている。両団体は2015年1月に、合併して新たな標準化団体を設立することで合意していた。
-
-　A4WPは、磁界共鳴ワイヤレス給電技術「Rezence」を提供してきた。2012年に設立され、メンバー企業は140を超えていた。PMAも2012年に設立された団体で、こちらは電磁誘導方式のワイヤレス給電技術を採用していた。AirFuel Allianceでは、両団体がこれまで蓄積してきた磁界共鳴方式と電磁誘導方式を軸に、ユーザーや通信事業者、小売店、民生機器業界などに、ワイヤレス給電技術のより一層の普及拡大を図る。
-
-　2015年10月には、電磁誘導方式と磁界共鳴方式のワイヤレス給電技術の互換性を検証するイベント（プラグフェスト）を行い、14社が40種類以上のレシーバICおよびトランスミッタICの適合性と商用化に向けて、テストを実施したという。
-
-　A4WPとPMAに関連するブランドは、一定期間後には使用できなくなる予定で、その後は順次「AirFuel」のロゴおよびブランド名に切り替わる。
-
-　AirFuel Allianceは、現在、ワイヤレス給電市場で最も普及している規格「Qi（チー）」を推進するWPC（Wireless Power Consortium）と競合することになる。WPCには、QualcommやFreescale Semiconductor、LG Electronics、ローム、東芝などが加盟している。

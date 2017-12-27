@@ -67,13 +67,13 @@ def elasticsearch_register(es, response_list):
 def main():
 
     analytics = GoogleAnalyticsAPIv4.initialize_analyticsreporting()
-    response = GoogleAnalyticsAPIv4.get_report(analytics, body, view_id)
+    response = GoogleAnalyticsAPIv4.get_report(analytics, body)
     response_list = []
     response_list.append(response)
 
     while response.get("reports", [])[0].get("nextPageToken"):
         body["reportRequests"][0]["pageToken"] = response.get("reports", [])[0].get("nextPageToken")
-        response = GoogleAnalyticsAPIv4.get_report(analytics, body, view_id)
+        response = GoogleAnalyticsAPIv4.get_report(analytics, body)
         response_list.append(response)
 
     es = elasticsearch_index_create(index, mapping)

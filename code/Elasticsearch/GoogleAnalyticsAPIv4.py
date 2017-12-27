@@ -12,9 +12,8 @@ from oauth2client import tools
 
 SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
 DISCOVERY_URI = ('https://analyticsreporting.googleapis.com/$discovery/rest')
-KEY_FILE_LOCATION = '/home/tamashiro/AI/GoogleAnalytics/Analytics_API/Google-Analytics-python-3b34a4a4112c.p12'
-SERVICE_ACCOUNT_EMAIL = 'shouene-com-analytics@tsuuken-ad-sys5.iam.gserviceaccount.com'
-VIEW_ID = '6540339'
+KEY_FILE_LOCATION = 'Keyファイルの格納先/Google-Analytics-python-*.p12'
+SERVICE_ACCOUNT_EMAIL = 'GA API 登録情報@*.iam.gserviceaccount.com'
 
 def initialize_analyticsreporting():
 
@@ -28,7 +27,7 @@ def initialize_analyticsreporting():
 
   return analytics
 
-def get_report(analytics, body, view_id=VIEW_ID):
+def get_report(analytics, body):
 
   return analytics.reports().batchGet(body=body).execute()
 
